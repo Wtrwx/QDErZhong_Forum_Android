@@ -5,7 +5,7 @@ import android.app.AlertDialog;
 import android.content.Intent;
 import android.net.Uri;
 import android.os.Bundle;
-import android.util.Log;
+import android.util.Lofg;
 import android.view.KeyEvent;
 import android.view.View;
 import android.webkit.ValueCallback;
@@ -177,7 +177,7 @@ public class MainActivity extends AppCompatActivity {
             ); // 如果2秒钟内没有按下返回键，则启动定时器取消掉刚才执行的任务
         } else {
             finish();
-            System.exit(0);
+            //System.exit(0);
         }
     }
 
